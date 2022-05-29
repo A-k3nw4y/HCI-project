@@ -1,0 +1,169 @@
+.features {
+    padding: 40px 0;
+    color: #333;
+}
+
+.features .feature {
+    margin-bottom: 20px;
+}
+
+.features h2.h1 {
+    margin-bottom: 40px;
+
+}
+
+.features .feature span.glyphicon {
+    font-size: 50px;
+}
+
+.features .feature p {
+    line-height: 1.5em;
+    color: #444;
+}
+
+/* colors */
+.features .f1 span {
+    color: #BA7404;
+}
+
+.features .f2 span {
+    color: #760B0B;
+}
+
+.features .f3 span {
+    color: #6A26DF;
+}
+
+.features .f4 span {
+    color: #6BF929;
+}
+
+/* end */
+/* end features */
+/* start testimonials */
+section.testimonials {
+    padding: 40px 0 60px 0;
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.testimonials .lead {
+    line-height: 1.5;
+}
+
+.testimonials .item img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70px;
+    margin: 15px 0;
+}
+
+.testimonials .carousel-indicators {
+    position: absolute;
+    top: 100%;
+    transition: all .5s ease-in-out
+}
+
+.testimonials .carousel-indicators li {
+    border: 1px solid;
+    background-color: #fff;
+
+}
+
+.testimonials .carousel-indicators li.active {
+    background-color: #D25400;
+}
+
+.testimonials .carousel-indicators li.active {
+    background-color: #D25400;
+}
+
+/* End testimonials */
+.carousel-inner>.item div.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* start skills */
+section.skills{
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.skills h2.h1{
+margin-bottom: 40px;
+margin-top: 0;
+}
+.skills .progress{
+height:25px;
+}
+.skills .progress .progress-bar{
+background-color: #D25400;
+line-height: 26px;
+font-size: 15px;
+font-weight: normal;
+text-align: left;
+text-indent: 15px;
+}
+/* end skills */
+/*start footer*/
+footer {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #333;
+    color: #eee;
+    position: relative;
+}
+
+footer h3 {
+    color: #D25400;
+    margin: 0px 0 20px;
+}
+
+footer.three-cols {
+    overflow: hidden;
+}
+
+.three-cols li {
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+
+footer .social-list {
+    margin: 20px 0 10px;
+}
+
+.social-list li {
+    float: left;
+    width: 48px;
+    height: 48px;
+    color: #aaa;
+}
+
+.social-list li:hover {
+    color: #fff
+}
+
+footer a {
+    color: #aaa;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer .copyright {
+    background-color: rgba(0, 0, 0, .2);
+    color: #f4f4f4;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+footer .copyright span {
+    color: #D25400;
+}
+
+/*end footer*/
